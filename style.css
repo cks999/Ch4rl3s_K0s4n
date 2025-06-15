@@ -1,0 +1,30 @@
+/* Set default font size for the entire page */
+body {
+    font-size: 40px; /* Base size (1rem = 16px by default) */
+    font-family: Arial, sans-serif; /* Optional font */
+}
+
+/* Style specific elements */
+h1 {
+    font-size: 40px; /* 32px (2 x 16px) */
+}
+
+p {
+    font-size: 30px; /* 19.2px */
+    line-height: 35px; /* Improve readability */
+}
+
+/* Custom class for blue paragraphs */
+.blue-paragraph {
+    color: blue;
+}
+
+/* Custom class for red paragraphs */
+.bold-paragraph {
+    font-weight: bold;
+}
+
+/* Custom class for special text */
+.large-text {
+    font-size: 35px;
+}
